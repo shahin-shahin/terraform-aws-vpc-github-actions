@@ -17,7 +17,7 @@ provider "aws" {
 }
 module "vpc" {
   source  = "terraform-aws-modules/vpc/aws"
-  version = "4.0.0"
+  version = "5.1.2"
 
   name = "my-vpc-porodhi"
   cidr = "10.0.0.0/16"
